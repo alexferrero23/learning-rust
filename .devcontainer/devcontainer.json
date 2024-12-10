@@ -1,0 +1,10 @@
+{
+  "name": "Rust Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "rust-lang.rust-analyzer"
+  ],
+  "postCreateCommand": "cargo new my_project && cd my_project && cargo build"
+}
